@@ -1,0 +1,39 @@
+#tb1{
+    float: right;
+}
+    
+    #tb2{
+        position: relative;
+    left: 200px;
+    }
+    
+    #tb3{
+        position: absolute;
+        top: 250px;   
+        left: 450px; 
+    }
+    table{
+        border-width: 2px 2px 1px 3px ;
+      border-style: solid;
+      border-color: #a62525;
+      border-collapse: collapse;
+      background: #fffff0;
+    }       
+    
+    td {
+      padding: 5px 30px;
+      text-align: center;    
+    }
+    tr:first-child{
+        background-color: #a62525;
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+    }
+    td:first-child{
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 50px;
+    }
+
+    
